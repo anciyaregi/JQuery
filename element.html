@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ID Selector</title>
+</head>
+<body>
+<h1 id="a">Main</h1>
+<h1>Jquery</h1>
+<h2>Learn and Do</h2>
+<script src="js/jquery.js"></script>
+<script>
+		$("document").ready(function(){
+			$("#a").click(function(){
+				var a=$(this).html();
+				console.log(a);
+			});
+		});
+		</script>
+</body>
+</html>
